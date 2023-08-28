@@ -9,21 +9,26 @@
   <body>
     <header>
       <h1>Api de Rick and Morty</h1>
+      <br />
+      <div id="campo-busca-container">
+        <input type="text" id="campo-busca" placeholder="Buscar por nome..." />
+        <button id="btn-busca">Buscar</button>
+      </div>
     </header>
 
     <div id="lista"></div>
 
-    <div>
-      <button class="bt-proximo">Próxima</button>
-      <button class="bt-anterior">Anterior</button>
+    <div class="botao">
+      <button id="bt-anterior">Anterior</button>
+      <button id="bt-proximo">Próxima</button>
     </div>
 
     <footer>
-      <img class="imagem-frente" src="./rick-and-morty-portal-shoes-white-clothing-zavvi-23.png" alt="imagem footer" />
+      <img class="img-principal" src="./rick-and-morty-portal-shoes-white-clothing-zavvi-23.png" alt="imagem footer" />
       <p>Desenvolvido por: <strong> Bruna Fonseca </strong> em 2023.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <!-- <script src="./index.js"></script> -->
+    <script src="./index.js"></script>
   </body>
 </html>
